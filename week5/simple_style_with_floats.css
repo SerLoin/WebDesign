@@ -1,0 +1,46 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	text-align:center;
+}
+
+#wrapper {
+	padding: 10px; /*This is so we can see how wrapper wraps around the other elements*/
+	background-color: #CCCCCC;
+	width:960px;
+	margin: 0px auto;
+	text-align:left;
+}
+
+header {
+	background-color: #C0D7CF;
+	display: block;
+}
+
+nav {
+	background-color: #C0CAD7;
+	display: block;
+}
+
+#main-content {
+	background-color: #D7C0D0;
+	display: block;
+	width: 640px;
+	float: left;
+}
+
+aside {
+	background-color: #DFEBA9;
+	display: block;
+	width:300px;
+	float: right;
+}
+
+footer {
+	background-color: #D7CFC0;
+	display: block;
+	clear:both;
+}

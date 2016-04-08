@@ -1,0 +1,20 @@
+/*
+
+First style sheet for SDES 3174
+Written by: Maxwell Lambert ~~ z3464892
+
+*/
+
+*  {
+   
+   margin: 0px;
+   padding: 0px;   
+
+}
+
+#wrapper {
+
+   background: #CCCCCC;
+   padding:	10px;
+
+}
