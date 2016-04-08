@@ -1,0 +1,47 @@
+/*
+
+First style sheet for SDES 3174
+Written by: Maxwell Lambert ~~ z3464892
+
+*/
+
+*  {  
+    margin: 0px;
+    padding: 0px;   
+}
+
+#wrapper {
+    background: #CCCCCC;
+    width: 960px;
+    padding:	10px;
+}
+
+header {
+	background-color: #c0D7Cf;
+	display: block;
+}
+
+nav {
+    background-color: #C0CAD7;
+    display: block;
+}
+
+#main-content {
+    background-color: #D7C0D0;
+    display: block;
+    width: 640px;
+    float: left:
+}
+
+aside {
+    background-color: #DFEBA9;
+    display: block;
+    width: 300px;
+    float: right;
+}
+
+footer {
+    background-color: #D7CFC0;
+    display: block;
+    clear: both;
+}
