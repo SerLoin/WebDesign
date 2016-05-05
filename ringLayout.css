@@ -1,0 +1,41 @@
+/*Resets browser default margin and padding if it exists*/
+* {
+   margin:0px;
+   padding:0px;
+}
+
+/*sets style for nav bar buttons*/
+
+#navbar ul {
+   background-color: #332D08;
+   width: 940;
+   overflow: hidden;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+#navbar li {
+   width: 116;
+   float: left;
+}
+
+#navbar li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+#navbar li:last-child {
+   min-width: 360;
+   border-right: none;
+   color: #CDB521;
+   background-color: #201C02;
+}
+
+/*Changes link colour on hover*/
+
+#navbar li a:hover {
+   color: #36D1ff;
+}
