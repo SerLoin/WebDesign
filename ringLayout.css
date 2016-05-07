@@ -5,10 +5,9 @@
 }
 
 /*sets style for nav bar buttons*/
-
 #navbar ul {
+   width: 940px;
    background-color: #332D08;
-   width: 940;
    overflow: hidden;
    list-style-type: none;
    margin: 0;
@@ -16,26 +15,52 @@
 }
 
 #navbar li {
-   width: 116;
    float: left;
 }
 
 #navbar li a {
-   display: block;
+   display: inline-block;
    color: white;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
 }
-#navbar li:last-child {
-   min-width: 360;
-   border-right: none;
+
+#navbar ul li:last-child {
    color: #CDB521;
+   text-align: center;
+   min-width: 300px;
+   float: right;
+   border-right: none;
    background-color: #201C02;
 }
 
 /*Changes link colour on hover*/
-
 #navbar li a:hover {
    color: #36D1ff;
+}
+
+/*feature article properties*/
+#feature-article div{
+   display: block;
+   height: 600px;
+   width: 940px;
+   background-color: #1F2020;
+}
+
+/*news container properties*/
+#news {
+   margin-top: 30px;
+   display: block;
+   height: 540px;
+   width: 620px;
+   background-color: #1A1A1A;
+   float: left;
+}
+
+#news-article div {
+   height: 165px;
+   border-top: 10px;
+   border-color: white;
+   text-align: justify;
 }
