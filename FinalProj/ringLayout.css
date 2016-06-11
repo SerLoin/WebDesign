@@ -1,0 +1,115 @@
+/*sets style for nav bar buttons*/
+.container_12c{
+
+      width: auto;
+      background-color: #0f0f0f;
+}
+#navbar ul {
+   background-color: #332D08;
+   overflow: hidden;
+   list-style-type: none;
+   width: auto;
+}
+
+#navbar li {
+   float: left;
+}
+
+#navbar li a {
+   display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 16px 10px;
+   text-decoration: none;
+}
+
+#navbar ul li:last-child {
+   color: #CDB521;
+   text-align: center;
+   min-width: 280px;
+   border-right: none;
+   background-color: #201C02;
+   float: right;
+}
+
+/*Changes link colour on hover*/
+#navbar li a:hover {
+   color: #36D1ff;
+}
+
+/*feature article properties*/
+#feature-article section{
+   background-color: #1F2020;
+}
+
+#feature-article img {
+   width: 940px;
+}
+
+/*news container properties*/
+#news {
+   background-color: #1A1A1A;
+   float: left;
+   display: inline-block;
+   margin-top: 20px;
+}
+
+
+#news-article div {
+   border-top: 10px;
+   border-color: white;
+   text-align: justify;
+}
+
+#p4p-ratings {
+   background-color: #1A1A1A;
+   margin-top: 20px;
+   height: auto;
+}
+
+#p4p-ratings section{
+   height: 110px;
+}
+
+#p4p-ratings ul {
+   padding-left: 0px;
+   list-style: none;
+   display: inline-block;
+}
+#p4p-ratings li {
+   margin: 0px;
+   margin-left: 10px;
+}
+#p4p-ratings h4{
+   margin: 0;
+   margin-left: 10px;
+   color: #CDB521;
+}
+#p4p-ratings img {
+   display: inline-block;
+   float: left;
+   padding-left: 20px;
+}
+
+#videos {
+   background-color: #1a1a1a;
+   margin-top: 20px;
+   height: auto;
+}
+#videos .v-article {
+   height: 220px;
+}
+#videos img{
+   width: 220px;
+   padding-top: 40px;
+   padding-left: 40px;
+}
+
+#schedule {
+   background-color: #1A1A1A;
+   margin-top: 20px;
+}
+#schedule section{
+   display: inline-block;
+   float: top;
+}
