@@ -1,115 +1,196 @@
 /*sets style for nav bar buttons*/
-.container_12c{
 
-      width: auto;
-      background-color: #0f0f0f;
+.container_12 {
+    background-color: #e8e8e8;
+}
+
+
+#header {
+    height: 236px;
+    background-color: #1e1e1e;
+    display: block;
+}
+
+#navbar {
+   font-family:
 }
 #navbar ul {
-   background-color: #332D08;
-   overflow: hidden;
-   list-style-type: none;
-   width: auto;
+    background-color: #333333;
+    overflow: hidden;
+    list-style-type: none;
+    width: auto;
 }
-
 #navbar li {
-   float: left;
+    float: left;
 }
-
 #navbar li a {
-   display: inline-block;
-   color: white;
-   text-align: center;
-   padding: 16px 10px;
-   text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 10px;
+    text-decoration: none;
 }
 
+
+/*----HEADER----*/
+/*
 #navbar ul li:last-child {
-   color: #CDB521;
-   text-align: center;
-   min-width: 280px;
-   border-right: none;
-   background-color: #201C02;
+    color: #CDB521;
+    text-align: center;
+    min-width: 280px;
+    border-right: none;
+    background-color: #201C02;
+    float: right;
+}
+*/
+
+.search-form {
    float: right;
+   width: 120px;
+   padding-top: 16px;
+   padding-right: px;
+
 }
 
 /*Changes link colour on hover*/
+
 #navbar li a:hover {
-   color: #36D1ff;
+    color: #36D1ff;
 }
 
 /*feature article properties*/
-#feature-article section{
-   background-color: #1F2020;
-}
 
+#feature-article {
+    margin-top: 20px;
+}
+#feature-article section {
+    background-color: #1F2020;
+}
 #feature-article img {
-   width: 940px;
+    width: 940px;
 }
 
 /*news container properties*/
+
 #news {
-   background-color: #1A1A1A;
-   float: left;
-   margin-top: 20px;
+    background-color: #1A1A1A;
+    float: left;
+    margin-top: 20px;
 }
-
-
 #news-article div {
-   border-top: 10px;
-   border-color: white;
-   text-align: justify;
+    border-top: 10px;
+    border-color: white;
+    text-align: justify;
+}
+.grid_4 {
+    float: right;
+}
+#p4p-ratings {
+    background-color: #1A1A1A;
+    margin-top: 20px;
+    height: auto;
+}
+#p4p-ratings section {
+    height: 110px;
+}
+#p4p-ratings ul {
+    padding-left: 0px;
+    list-style: none;
+    display: inline-block;
+}
+#p4p-ratings li {
+    margin: 0px;
+    margin-left: 10px;
+}
+#p4p-ratings h4 {
+    margin: 0;
+    margin-left: 10px;
+    color: #CDB521;
+}
+#p4p-ratings img {
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+}
+#videos {
+    background-color: #1a1a1a;
+    margin-top: 20px;
+    height: auto;
+}
+#videos .v-article {
+    height: 220px;
+}
+#videos img {
+    width: 220px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+#schedule {
+    float: left;
+    background-color: #1A1A1A;
+    margin-top: 20px;
 }
 
-.grid_4 {
+/* Boxing News Page */
+
+#feature-article-bar {
+    margin-top: 20px;
+    height: 316px;
+    background-color: #333333;
+}
+#article-feed {
+    height: auto;
+    background-color: #333333;
+    margin-top: 20px;
+}
+.news-article {
+    width: inherit;
+    height: 300px;
+    background-color: white;
+}
+
+/* news-acticle styles*/
+.news-article {
+   margin-top: 20px;
    float: right;
 }
 
-#p4p-ratings {
-   background-color: #1A1A1A;
+/* Schedule styles */
+
+#event-main{
+   background-color: black;
    margin-top: 20px;
-   height: auto;
+}
+#event-title {
+   height: 600px;
+   background-color: inherit;
+}
+#event-subtitle {
+   height: 180px;
+   background-color: white;
 }
 
-#p4p-ratings section{
-   height: 110px;
-}
-
-#p4p-ratings ul {
-   padding-left: 0px;
-   list-style: none;
-   display: inline-block;
-}
-#p4p-ratings li {
-   margin: 0px;
-   margin-left: 10px;
-}
-#p4p-ratings h4{
-   margin: 0;
-   margin-left: 10px;
-   color: #CDB521;
-}
-#p4p-ratings img {
-   display: inline-block;
-   float: left;
-   padding-left: 20px;
-}
-
-#videos {
-   background-color: #1a1a1a;
+#event-list {
+   background-color: white;
    margin-top: 20px;
-   height: auto;
-}
-#videos .v-article {
-   height: 220px;
-}
-#videos img{
-   width: 220px;
-   padding-top: 40px;
-   padding-left: 40px;
 }
 
-#schedule {
-   float: left;
-   background-color: #1A1A1A;
-   margin-top: 20px;
+.event-secondary {
+   height: 180px;
+   background-color: orange;
+   margin-bottom: 10px;
+}
+
+/* subscribe styles */
+
+
+
+
+/* footer styles */
+
+.footer {
+    background-color: black;
+    margin-top: 60px;
+    width: 940px;
+    height: 60px;
 }
