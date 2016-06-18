@@ -1,26 +1,38 @@
 /*sets style for nav bar buttons*/
+
 body {
-   background-color: #e8e8e8;
-}
-.container_12 {
     background-color: #e8e8e8;
 }
-
-@font-face { font-family: Bebas Neue; src: url('BebasNeue.otf'); }
-@font-face { font-family: Bebas Neue; font-weight: bold; src: url('BebasNeue.otf');}
-
-
+.container_12 {
+    background-color: #909090;
+}
+@font-face {
+    font-family: SourceProReg;
+    src: url('SourceSansPro-Regular.otf');
+}
+@font-face {
+    font-family: SourceProReg;
+    font-weight: bold;
+    src: url('SourceSansPro-Bold.otf');
+}
+@font-face {
+    font-family: Bebas Neue;
+    src: url('BebasNeue.otf');
+}
+@font-face {
+    font-family: Bebas Neue;
+    font-weight: bold;
+    src: url('BebasNeue.otf');
+}
 #header {
     height: 236px;
     background-color: #1e1e1e;
     display: block;
 }
-
 #navbar {
-   font-family: Bebas Neue, sans-serif;
-   font-size: 24px;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 24px;
 }
-
 #navbar ul {
     background-color: #333333;
     overflow: hidden;
@@ -30,34 +42,38 @@ body {
 #navbar li {
     float: left;
 }
-
 #logo {
-   padding-left: 50px;
-   padding-top: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
 }
-
 #mag-cover {
-   width: 20%;
-   height: auto;
-   float: right;
-   padding-right: 50px;
-   padding-top: 50px
+    width: 20%;
+    height: auto;
+    float: right;
+    padding-right: 50px;
+    padding-top: 50px
 }
 
+/*---- STYLE FOR MAIN ARTICLE ON HOME PAGE -----*/
+
+tint-black-img {
+    linear-gradient( top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 75))
+}
 #navbar li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 16px 0px 11px 0px; /*-5px on bottom padding because of border*/
+    padding: 16px 0px 11px 0px;
+    /*-5px on bottom padding because of border*/
     text-decoration: none;
 }
-
 .active {
-   border-bottom: 5px solid #36D1ff;
+    border-bottom: 5px solid #36D1ff;
 }
 
-
 /*----HEADER----*/
+
+
 /*
 #navbar ul li:last-child {
     color: #CDB521;
@@ -70,15 +86,19 @@ body {
 */
 
 .search-form {
-   float: right;
-   width: 120px;
-   padding-top: 16px;
-   padding-right: px;
-
+    float: right;
+    width: 120px;
+    padding-top: 16px;
+    padding-right: px;
 }
 
-/*Changes link colour on hover*/
+/*Style for horizontal lines*/
 
+hr {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 0em;
+}
 #navbar li a:hover {
     color: #36D1ff;
 }
@@ -98,14 +118,26 @@ body {
 /*news container properties*/
 
 #news {
-    background-color: #1A1A1A;
+    background-color: #3f3f3f;
     float: left;
     margin-top: 20px;
+    border-top: 5px solid crimson;
 }
-#news-article div {
-    border-top: 10px;
-    border-color: white;
+#news h2 {
+    color: white;
+    font-family: SourceProReg;
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 20px;
+}
+.news-card-main {
+    width: 400px;
     text-align: justify;
+    font-family: SourceProReg;
+}
+.news-card-main p {
+   color: white;
+    font-size: 20
 }
 .grid_4 {
     float: right;
@@ -175,40 +207,37 @@ body {
 }
 
 /* news-acticle styles*/
+
 .news-article {
-   margin-top: 20px;
-   float: right;
+    margin-top: 20px;
+    float: right;
 }
 
 /* Schedule styles */
 
-#event-main{
-   background-color: black;
-   margin-top: 20px;
+#event-main {
+    background-color: black;
+    margin-top: 20px;
 }
 #event-title {
-   height: 600px;
-   background-color: inherit;
+    height: 600px;
+    background-color: inherit;
 }
 #event-subtitle {
-   height: 180px;
-   background-color: white;
+    height: 180px;
+    background-color: white;
 }
-
 #event-list {
-   background-color: white;
-   margin-top: 20px;
+    background-color: white;
+    margin-top: 20px;
 }
-
 .event-secondary {
-   height: 180px;
-   background-color: orange;
-   margin-bottom: 10px;
+    height: 180px;
+    background-color: orange;
+    margin-bottom: 10px;
 }
 
 /* subscribe styles */
-
-
 
 
 /* footer styles */
