@@ -24,6 +24,25 @@ body {
     font-weight: bold;
     src: url('BebasNeue.otf');
 }
+
+/*---- STYLE FOR MAIN ARTICLE ON HOME PAGE -----*/
+
+tint-black-img {
+    linear-gradient( top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 75))
+}
+#navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 0px 11px 0px;
+    /*-5px on bottom padding because of border*/
+    text-decoration: none;
+}
+.active {
+    border-bottom: 5px solid #36D1ff;
+}
+
+/*----HEADER----*/
 #header {
     height: 236px;
     background-color: #1e1e1e;
@@ -47,43 +66,16 @@ body {
     padding-top: 50px;
 }
 #mag-cover {
-    width: 20%;
+    width: inherit;;
     height: auto;
-    float: right;
-    padding-right: 50px;
-    padding-top: 50px
 }
-
-/*---- STYLE FOR MAIN ARTICLE ON HOME PAGE -----*/
-
-tint-black-img {
-    linear-gradient( top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 75))
+.mag-cover-container {
+   width: 120px;
+   height: auto;
+   float: right;
+   margin-right: 60px;
+   padding-top: 30px
 }
-#navbar li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 16px 0px 11px 0px;
-    /*-5px on bottom padding because of border*/
-    text-decoration: none;
-}
-.active {
-    border-bottom: 5px solid #36D1ff;
-}
-
-/*----HEADER----*/
-
-
-/*
-#navbar ul li:last-child {
-    color: #CDB521;
-    text-align: center;
-    min-width: 280px;
-    border-right: none;
-    background-color: #201C02;
-    float: right;
-}
-*/
 
 .search-form {
     float: right;
@@ -91,7 +83,9 @@ tint-black-img {
     padding-top: 16px;
     padding-right: px;
 }
-
+#navbar li a:hover {
+    color: #36D1ff;
+}
 /*Style for horizontal lines*/
 
 hr {
@@ -99,9 +93,7 @@ hr {
     margin-right: 1.5em;
     margin-top: 0em;
 }
-#navbar li a:hover {
-    color: #36D1ff;
-}
+
 
 /*feature article properties*/
 
@@ -121,7 +113,7 @@ hr {
     background-color: #3f3f3f;
     float: left;
     margin-top: 20px;
-    border-top: 5px solid crimson;
+    border-top: 5px solid #620800;
 }
 #news h2 {
     color: white;
@@ -132,20 +124,36 @@ hr {
 }
 .news-card-main {
     width: 400px;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 10px;
     text-align: justify;
     font-family: SourceProReg;
 }
 .news-card-main p {
-   color: white;
-    font-size: 20
+    color: white;
+    font-size: 16
 }
+.news-card-main h3 {
+    color: white;
+    margin-bottom: 5px;
+}
+
 .grid_4 {
     float: right;
 }
 #p4p-ratings {
-    background-color: #1A1A1A;
+   border-top: 5px solid #CDB521;
+    background-color: #3f3f3f;
     margin-top: 20px;
     height: auto;
+}
+#p4p-ratings h2 {
+   color: white;
+   font-family: SourceProReg;
+   font-weight: bold;
+   font-size: 32px;
+   padding-left: 20px;
 }
 #p4p-ratings section {
     height: 110px;
@@ -170,47 +178,131 @@ hr {
     padding-left: 20px;
 }
 #videos {
-    background-color: #1a1a1a;
-    margin-top: 20px;
-    height: auto;
+   height: auto;
+   border-top: 5px solid #620800;
+   float: left;
+   background-color: #1a1a1a;
+   margin-top: 20px;
 }
 #videos .v-article {
-    height: 220px;
+    background-color: #333333;
+    height: 160px;
+}
+#videos .v-article-dark {
+    background-color: #1a1a1a;
+    height: 160px;
+}
+#videos h2 {
+   color: white;
+   font-family: SourceProReg;
+   font-weight: bold;
+   font-size: 32px;
+   padding-left: 20px;
+}
+#videos .img-container {
+    width: 220px;
+    padding-left: 40px;
+    padding-top: 5px;
 }
 #videos img {
-    width: 220px;
-    padding-top: 40px;
-    padding-left: 40px;
+   width: inherit;
 }
 #schedule {
-    float: left;
-    background-color: #1A1A1A;
+    height: 530px;
+    border-top: 5px solid #620800;
+    background-color: #1a1a1a;
     margin-top: 20px;
 }
-
+#schedule h2 {
+   color: white;
+   font-family: SourceProReg;
+   font-weight: bold;
+   font-size: 32px;
+   padding-left: 20px;
+}
+#schedule h3 {
+   color:  #CDB521;
+   font-family: SourceProReg;
+   font-weight: bold;
+   font-size: 32px;
+   padding-left: 20px;
+   margin-bottom: 0px;
+}
+#schedule p {
+   padding-left: 20px;
+   padding-right: 20px;
+   color: white;
+   font-family: SourceProReg;
+   font-size: 18px;
+}
+#schedule .sched-card {
+   background-color: #333333;
+   height: 160px;
+}
+#schedule .sched-card-dark {
+   height: 160px;
+   background: #1a1a1a;
+}
 /* Boxing News Page */
 
 #feature-article-bar {
-    margin-top: 20px;
     height: 316px;
     background-color: #333333;
 }
+.news-page-feat {
+   background-image: url("images/golokeenfeat.jpg");
+   background-position: left;
+   width: 300px;
+   height: 300px;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-top: 8px;
+   display: inline-block;
+}
+.news-page-feat2 {
+   background-image: url("images/funkyfaces.jpg");
+   background-position: left;
+   width: 300px;
+   height: 300px;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-top: 8px;
+   display: inline-block;
+}
+.news-page-feat3 {
+   background-image: url("images/ward-feat.jpg");
+   background-position: left;
+   width: 300px;
+   height: 300px;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-top: 8px;
+   display: inline-block;
+}
+
 #article-feed {
     height: auto;
-    background-color: #333333;
     margin-top: 20px;
 }
 .news-article {
+   border-top: 5px solid #333333;
     width: inherit;
     height: 300px;
-    background-color: white;
-}
-
-/* news-acticle styles*/
-
-.news-article {
     margin-top: 20px;
     float: right;
+}
+.news-article-img {
+   width: 300px;
+   height: auto;
+   float: left;
+   padding-top: 10px;
+}
+.news-article img {
+   width: 400px;
+}
+.news-article p h1 h2 h3 {
+   color: black;
+   font-family: SourceProReg;
 }
 
 /* Schedule styles */
@@ -243,8 +335,27 @@ hr {
 /* footer styles */
 
 .footer {
-    background-color: black;
+    background-color: #333333;
     margin-top: 60px;
     width: 940px;
     height: 60px;
+}
+.icon-container {
+   float: right;
+   max-width: 50px;
+   margin-right: 5px;
+   padding-top: 5px;
+}
+
+.footer img {
+   width: 50px;
+   height: 50px;
+}
+.footer p {
+   float: right;
+   padding-top: 10px;
+   padding-right: 10px
+   font-family: SourceProReg;
+   font-size: 22px;
+   color: #29abe2;
 }
