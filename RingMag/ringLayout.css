@@ -3,6 +3,9 @@
 body {
     background-color: #e8e8e8;
 }
+h1 {
+   font-family: SourceProReg;
+}
 .container_12 {
     background-color: #909090;
 }
@@ -15,6 +18,7 @@ body {
     font-weight: bold;
     src: url('SourceSansPro-Bold.otf');
 }
+
 @font-face {
     font-family: Bebas Neue;
     src: url('BebasNeue.otf');
@@ -314,8 +318,12 @@ hr {
 /* Schedule styles */
 
 #event-main {
-    background-color: black;
+   max-width: inherit;
     margin-top: 20px;
+}
+#event-main img {
+   width: 940px;
+   height: auto;
 }
 #event-title {
     height: 600px;
@@ -323,19 +331,38 @@ hr {
 }
 #event-subtitle {
     height: 180px;
-    background-color: white;
 }
 #event-list {
-    background-color: white;
     margin-top: 20px;
 }
 .event-secondary {
+   position: relative;
     height: 180px;
-    background-color: orange;
     margin-bottom: 10px;
 }
 
 /* subscribe styles */
+.subscribe-option {
+   position: relative;
+   height: 80px;
+   margin-top: 40px;
+   margin-left: 40px;
+}
+.option-box {
+   width: 160px;
+   height: 40px;
+   position: absolute;
+   border: 1px solid black;
+}
+.other-options {
+   height: 50px;
+   margin-top: 10px;
+   float: left;
+   position: relative;
+}
+
+/*Ratings STYLES */
+
 
 /*Haye Article style */
 
