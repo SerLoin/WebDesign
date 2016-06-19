@@ -364,9 +364,14 @@ hr {
     display: none;
 }
 
-
 #ratings-panel li {
     border: 3px solid black;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+}
+#ratings-panel li:hover {
+    border: 3px solid #CDB521;
     width: 150px;
     text-align: center;
     margin: 0px;
@@ -390,6 +395,10 @@ hr {
     border: 3px solid black;
     float: left;
     background-color: #e8e8e8;
+}
+.crimson {
+   background-color: #620800!important;
+   color: #CDB521;
 }
 
 /*Haye Article style */
