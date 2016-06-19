@@ -4,7 +4,7 @@ body {
     background-color: #e8e8e8;
 }
 h1 {
-   font-family: SourceProReg;
+    font-family: SourceProReg;
 }
 .container_12 {
     background-color: #909090;
@@ -18,7 +18,6 @@ h1 {
     font-weight: bold;
     src: url('SourceSansPro-Bold.otf');
 }
-
 @font-face {
     font-family: Bebas Neue;
     src: url('BebasNeue.otf');
@@ -47,6 +46,7 @@ tint-black-img {
 }
 
 /*----HEADER----*/
+
 #header {
     height: 236px;
     background-color: #1e1e1e;
@@ -70,17 +70,17 @@ tint-black-img {
     padding-top: 50px;
 }
 #mag-cover {
-    width: inherit;;
+    width: inherit;
+    ;
     height: auto;
 }
 .mag-cover-container {
-   width: 120px;
-   height: auto;
-   float: right;
-   margin-right: 60px;
-   padding-top: 30px
+    width: 120px;
+    height: auto;
+    float: right;
+    margin-right: 60px;
+    padding-top: 30px
 }
-
 .search-form {
     float: right;
     width: 120px;
@@ -90,6 +90,7 @@ tint-black-img {
 #navbar li a:hover {
     color: #36D1ff;
 }
+
 /*Style for horizontal lines*/
 
 hr {
@@ -97,7 +98,6 @@ hr {
     margin-right: 1.5em;
     margin-top: 0em;
 }
-
 
 /*feature article properties*/
 
@@ -142,22 +142,21 @@ hr {
     color: white;
     margin-bottom: 5px;
 }
-
 .grid_4 {
     float: right;
 }
 #p4p-ratings {
-   border-top: 5px solid #CDB521;
+    border-top: 5px solid #CDB521;
     background-color: #3f3f3f;
     margin-top: 20px;
     height: auto;
 }
 #p4p-ratings h2 {
-   color: white;
-   font-family: SourceProReg;
-   font-weight: bold;
-   font-size: 32px;
-   padding-left: 20px;
+    color: white;
+    font-family: SourceProReg;
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 20px;
 }
 #p4p-ratings section {
     height: 110px;
@@ -182,11 +181,11 @@ hr {
     padding-left: 20px;
 }
 #videos {
-   height: auto;
-   border-top: 5px solid #620800;
-   float: left;
-   background-color: #1a1a1a;
-   margin-top: 20px;
+    height: auto;
+    border-top: 5px solid #620800;
+    float: left;
+    background-color: #1a1a1a;
+    margin-top: 20px;
 }
 #videos .v-article {
     background-color: #333333;
@@ -197,11 +196,11 @@ hr {
     height: 160px;
 }
 #videos h2 {
-   color: white;
-   font-family: SourceProReg;
-   font-weight: bold;
-   font-size: 32px;
-   padding-left: 20px;
+    color: white;
+    font-family: SourceProReg;
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 20px;
 }
 #videos .img-container {
     width: 220px;
@@ -209,7 +208,7 @@ hr {
     padding-top: 5px;
 }
 #videos img {
-   width: inherit;
+    width: inherit;
 }
 #schedule {
     height: 530px;
@@ -218,35 +217,36 @@ hr {
     margin-top: 20px;
 }
 #schedule h2 {
-   color: white;
-   font-family: SourceProReg;
-   font-weight: bold;
-   font-size: 32px;
-   padding-left: 20px;
+    color: white;
+    font-family: SourceProReg;
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 20px;
 }
 #schedule h3 {
-   color:  #CDB521;
-   font-family: SourceProReg;
-   font-weight: bold;
-   font-size: 32px;
-   padding-left: 20px;
-   margin-bottom: 0px;
+    color: #CDB521;
+    font-family: SourceProReg;
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 20px;
+    margin-bottom: 0px;
 }
 #schedule p {
-   padding-left: 20px;
-   padding-right: 20px;
-   color: white;
-   font-family: SourceProReg;
-   font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: SourceProReg;
+    font-size: 18px;
 }
 #schedule .sched-card {
-   background-color: #333333;
-   height: 160px;
+    background-color: #333333;
+    height: 160px;
 }
 #schedule .sched-card-dark {
-   height: 160px;
-   background: #1a1a1a;
+    height: 160px;
+    background: #1a1a1a;
 }
+
 /* Boxing News Page */
 
 #feature-article-bar {
@@ -254,76 +254,73 @@ hr {
     background-color: #333333;
 }
 .news-page-feat {
-   background-image: url("images/golokeenfeat.jpg");
-   background-position: left;
-   width: 300px;
-   height: 300px;
-   margin-left: 5px;
-   margin-right: 5px;
-   margin-top: 8px;
-   display: inline-block;
+    background-image: url("images/golokeenfeat.jpg");
+    background-position: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+    display: inline-block;
 }
 .news-page-feat2 {
-   background-image: url("images/funkyfaces.jpg");
-   background-position: left;
-   width: 300px;
-   height: 300px;
-   margin-left: 5px;
-   margin-right: 5px;
-   margin-top: 8px;
-   display: inline-block;
+    background-image: url("images/funkyfaces.jpg");
+    background-position: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+    display: inline-block;
 }
 .news-page-feat3 {
-   background-image: url("images/ward-feat.jpg");
-   background-position: left;
-   width: 300px;
-   height: 300px;
-   margin-left: 5px;
-   margin-right: 5px;
-   margin-top: 8px;
-   display: inline-block;
+    background-image: url("images/ward-feat.jpg");
+    background-position: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+    display: inline-block;
 }
-
 #article-feed {
     height: auto;
     margin-top: 20px;
 }
 .news-article {
-   border-top: 5px solid #333333;
+    border-top: 5px solid #333333;
     width: inherit;
     height: 200px;
     margin-top: 20px;
     float: right;
 }
 .news-article-img {
-   width: 300px;
-   height: auto;
-   float: left;
-   padding-top: 10px;
-   margin-right: 10px;
+    width: 300px;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    margin-right: 10px;
 }
 .news-article img {
-   width: 300px;
+    width: 300px;
 }
 .news-article p h1 h2 h3 {
-   color: black;
-   font-family: SourceProReg;
+    color: black;
+    font-family: SourceProReg;
 }
 .news-article p {
-   font-size: 16px;
+    font-size: 16px;
 }
-
-
 
 /* Schedule styles */
 
 #event-main {
-   max-width: inherit;
+    max-width: inherit;
     margin-top: 20px;
 }
 #event-main img {
-   width: 940px;
-   height: auto;
+    width: 940px;
+    height: auto;
 }
 #event-title {
     height: 600px;
@@ -336,53 +333,85 @@ hr {
     margin-top: 20px;
 }
 .event-secondary {
-   position: relative;
+    position: relative;
     height: 180px;
     margin-bottom: 10px;
 }
 
 /* subscribe styles */
+
 .subscribe-option {
-   position: relative;
-   height: 80px;
-   margin-top: 40px;
-   margin-left: 40px;
+    position: relative;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 .option-box {
-   width: 160px;
-   height: 40px;
-   position: absolute;
-   border: 1px solid black;
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    border: 1px solid black;
 }
 .other-options {
-   height: 50px;
-   margin-top: 10px;
-   float: left;
-   position: relative;
+    height: 50px;
+    margin-top: 10px;
+    float: left;
+    position: relative;
 }
 
 /*Ratings STYLES */
+#p4p-panel {
+    display: none;
+}
 
+
+#ratings-panel li {
+    border: 3px solid black;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+}
+#ratings-list {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 30px;
+}
+#ratings-list ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+#ratings-list li {
+    float: left;
+    background-color: #333333;
+}
+.left-card {
+    width: 460px;
+    height: 170px;
+    position: relative;
+    border: 3px solid black;
+    float: left;
+    background-color: #e8e8e8;
+}
 
 /*Haye Article style */
 
 #haye-img-container {
-   max-width: inherit;
-   height: auto;
-   float: left;
-   padding-bottom: 10px;
+    max-width: inherit;
+    height: auto;
+    float: left;
+    padding-bottom: 10px;
 }
 .body-copy img {
-   width: 620px;
-   float: left;
+    width: 620px;
+    float: left;
 }
 .body-copy {
-   font-family: SourceProReg;
-   width: inherit;
+    font-family: SourceProReg;
+    width: inherit;
 }
 .body-copy p {
-   font-size: 18px;
+    font-size: 18px;
 }
+
 /* footer styles */
 
 .footer {
@@ -392,21 +421,19 @@ hr {
     height: 60px;
 }
 .icon-container {
-   float: right;
-   max-width: 50px;
-   margin-right: 5px;
-   padding-top: 5px;
+    float: right;
+    max-width: 50px;
+    margin-right: 5px;
+    padding-top: 5px;
 }
-
 .footer img {
-   width: 50px;
-   height: 50px;
+    width: 50px;
+    height: 50px;
 }
 .footer p {
-   float: right;
-   padding-top: 10px;
-   padding-right: 10px
-   font-family: SourceProReg;
-   font-size: 22px;
-   color: #29abe2;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px font-family: SourceProReg;
+    font-size: 22px;
+    color: #29abe2;
 }

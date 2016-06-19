@@ -9,6 +9,9 @@
     <link href="960.css" rel="stylesheet" />
     <link href="text.css" rel="stylesheet" />
     <link rel="stylesheet" href="ringLayout.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <script src="gallery.js"></script>
 </head>
 
 <body>
@@ -30,7 +33,7 @@
                     <li><a href="news.html">BOXING NEWS </a></li>
                     <li class="active"><a href="ratings.html">RATINGS</a></li>
                     <li><a href="schedule.html">SCHEDULE</a></li>
-                    <li ><a href="subscribe.html">SUBSCRIBE</a></li>
+                    <li><a href="subscribe.html">SUBSCRIBE</a></li>
                     <div class="search-form"> search </div>
                 </ul>
             </nav>
@@ -39,9 +42,9 @@
         <!--    CONTENT AREA????    -->
 
         <div class="grid_12">
-            <nav id="navbar">
-                <ul id="ratings-panels">
-                    <li>P4P</li>
+            <nav id="ratings-list">
+                <ul id="ratings-panel">
+                    <li id="flip">P4P</li>
                     <li>HEAVYWEIGHT</li>
                     <li>LIGHT H.W.</li>
                     <li>MIDDLEWEIGHT</li>
@@ -49,6 +52,116 @@
                     <li>LIGHTWEIGHT</li>
                 </ul>
             </nav>
+        </div>
+
+        <!-- p4p rank -->
+        <div class="grid_12">
+            <div id="p4p-panel">
+                <div class="left-card">
+                    <img style="width:135px;padding-top:6px;padding-left:6px;" src="images/Ciocolatito.jpg" alt="" />
+                    <span style="color:#CDB521;position:absolute;left:150px;"><h2>Roman Gonzalez</h2></span>
+                    <span style="position:absolute;left:150px;top:30px;"><h5>Country: Nicaragua</h5></span>
+                    <span style="position:absolute;left:150px;top:50px;"><h5>Record: 44-0-0 (38 KOs)</h5></span>
+                    <span style="position:absolute;left:150px;top:70px;"><h5>Division: Flyweight</h5></span>
+                    <span style="position:absolute;left:390px;top:50px;">
+                <h1 style="font-weight:bold;font-size:80px;">1</h1></span>
+
+
+                </div>
+                <div class="left-card">
+                    <img style="width:135px;padding-top:6px;padding-left:6px;" src="images/cinnabun.jpg" alt="" />
+                    <span style="color:#CDB521;position:absolute;left:150px;"><h2>Saul Alvarez</h2></span>
+                    <span style="position:absolute;left:150px;top:30px;"><h5>Country: Mexico</h5></span>
+                    <span style="position:absolute;left:150px;top:50px;"><h5>Record: 46-1-1 (32 KOs)</h5></span>
+                    <span style="position:absolute;left:150px;top:70px;"><h5>Division: Middleweight</h5></span>
+                    <span style="position:absolute;left:390px;top:50px;">
+                <h1 style="font-weight:bold;font-size:80px;">6</h1></span>
+
+
+                </div>
+                <div class="left-card">
+                    <img style="width:135px;padding-top:6px;padding-left:6px;" src="images/kovalev.jpg" alt="" />
+                    <span style="color:#CDB521;position:absolute;left:150px;"><h2>Sergey Kovalev</h2></span>
+                    <span style="position:absolute;left:150px;top:30px;"><h5>Country: Russia</h5></span>
+                    <span style="position:absolute;left:150px;top:50px;"><h5>Record: 29-0-1 (26 KOs)</h5></span>
+                    <span style="position:absolute;left:150px;top:70px;"><h5>Division: Light H.W.</h5></span>
+                    <span style="position:absolute;left:390px;top:50px;">
+                <h1 style="font-weight:bold;font-size:80px;">2</h1></span>
+
+                </div>
+                <div class="left-card">
+                    <img style="height:150px;padding-top:6px;padding-left:6px;" src="images/Yamanaka.jpg" alt="" />
+                    <span style="color:#CDB521;position:absolute;left:150px;"><h2>S. Yamanaka</h2></span>
+                    <span style="position:absolute;left:150px;top:30px;"><h5>Country: Japan</h5></span>
+                    <span style="position:absolute;left:150px;top:50px;"><h5>Record: 25-0-2 (17 KOs)</h5></span>
+                    <span style="position:absolute;left:150px;top:70px;"><h5>Division: Bantamweight</h5></span>
+                    <span style="position:absolute;left:390px;top:50px;">
+                <h1 style="font-weight:bold;font-size:80px;">7</h1></span>
+
+                </div>
+
+                <div class="left-card">
+                    <img style="height:150px;padding-top:6px;padding-left:6px;" src="images/Golovkin.jpg" alt="" />
+                    <span style="color:#CDB521;position:absolute;left:150px;"><h2>Gennady Golovkin</h2></span>
+                    <span style="position:absolute;left:150px;top:30px;"><h5>Country: Kazachstan</h5></span>
+                    <span style="position:absolute;left:150px;top:50px;"><h5>Record: 34-0-0 (31 KOs)</h5></span>
+                    <span style="position:absolute;left:150px;top:70px;"><h5>Division: Middleweight</h5></span>
+                    <span style="position:absolute;left:390px;top:50px;">
+                <h1 style="font-weight:bold;font-size:80px;">3</h1></span>
+
+                </div>
+                <div class="left-card">
+                    <img style="height:150px;padding-top:6px;padding-left:6px;" src="images/Ward.jpg" alt="" />
+                    <span style="color:#CDB521;position:absolute;left:150px;"><h2>Andre Ward</h2></span>
+                    <span style="position:absolute;left:150px;top:30px;"><h5>Country: USA</h5></span>
+                    <span style="position:absolute;left:150px;top:50px;"><h5>Record: 29-0-0 (15 KOs)</h5></span>
+                    <span style="position:absolute;left:150px;top:70px;"><h5>Division: Light H.W.</h5></span>
+                    <span style="position:absolute;left:390px;top:50px;">
+                <h1 style="font-weight:bold;font-size:80px;">8</h1></span>
+
+                </div>
+
+                <div class="left-card">
+                    <img style="height:150px;padding-top:6px;padding-left:6px;" src="images/Rigo.jpg" alt="" />
+                    <span style="color:#CDB521;position:absolute;left:150px;"><h2>G. Rigondeaux</h2></span>
+                    <span style="position:absolute;left:150px;top:30px;"><h5>Country: Cuba</h5></span>
+                    <span style="position:absolute;left:150px;top:50px;"><h5>Record: 16-0-0 (10 KOs)</h5></span>
+                    <span style="position:absolute;left:150px;top:70px;"><h5>Division: S. Bantamweight</h5></span>
+                    <span style="position:absolute;left:390px;top:50px;">
+                <h1 style="font-weight:bold;font-size:80px;">4</h1></span>
+
+                </div>
+                <div class="left-card">
+                    <img style="height:150px;padding-top:6px;padding-left:6px;" src="images/Inoue.jpg" alt="" />
+                    <span style="color:#CDB521;position:absolute;left:150px;"><h2>Naoya Inoue</h2></span>
+                    <span style="position:absolute;left:150px;top:30px;"><h5>Country: Japan</h5></span>
+                    <span style="position:absolute;left:150px;top:50px;"><h5>Record: 9-0-0 (8 KOs)</h5></span>
+                    <span style="position:absolute;left:150px;top:70px;"><h5>Division: Bantamweight</h5></span>
+                    <span style="position:absolute;left:390px;top:50px;">
+                <h1 style="font-weight:bold;font-size:80px;">9</h1></span>
+
+                </div>
+                <div class="left-card">
+                    <img style="height:150px;padding-top:6px;padding-left:6px;" src="images/Crawford.jpg" alt="" />
+                    <span style="color:#CDB521;position:absolute;left:150px;"><h2>Terence Crawford</h2></span>
+                    <span style="position:absolute;left:150px;top:30px;"><h5>Country: USA</h5></span>
+                    <span style="position:absolute;left:150px;top:50px;"><h5>Record: 28-0-0 (17 KOs)</h5></span>
+                    <span style="position:absolute;left:150px;top:70px;"><h5>Division: Jr. Welterweight</h5></span>
+                    <span style="position:absolute;left:390px;top:50px;">
+                <h1 style="font-weight:bold;font-size:80px;">5</h1></span>
+
+                </div>
+                <div class="left-card">
+                    <img style="height:150px;padding-top:6px;padding-left:6px;" src="images/Brook.jpg" alt="" />
+                    <span style="color:#CDB521;position:absolute;left:150px;"><h2>Kell Brook</h2></span>
+                    <span style="position:absolute;left:150px;top:30px;"><h5>Country: England</h5></span>
+                    <span style="position:absolute;left:150px;top:50px;"><h5>Record: 36-0-0 (25 KOs)</h5></span>
+                    <span style="position:absolute;left:150px;top:70px;"><h5>Division: Welterweight</h5></span>
+                    <span style="position:absolute;left:350px;top:50px;">
+                <h1 style="font-weight:bold;font-size:80px;">10</h1></span>
+
+                </div>
+            </div>
         </div>
 
         <!--    FOOTER   -->
