@@ -287,7 +287,7 @@ hr {
 .news-article {
    border-top: 5px solid #333333;
     width: inherit;
-    height: 300px;
+    height: 200px;
     margin-top: 20px;
     float: right;
 }
@@ -296,14 +296,20 @@ hr {
    height: auto;
    float: left;
    padding-top: 10px;
+   margin-right: 10px;
 }
 .news-article img {
-   width: 400px;
+   width: 300px;
 }
 .news-article p h1 h2 h3 {
    color: black;
    font-family: SourceProReg;
 }
+.news-article p {
+   font-size: 16px;
+}
+
+
 
 /* Schedule styles */
 
@@ -331,7 +337,25 @@ hr {
 
 /* subscribe styles */
 
+/*Haye Article style */
 
+#haye-img-container {
+   max-width: inherit;
+   height: auto;
+   float: left;
+   padding-bottom: 10px;
+}
+.body-copy img {
+   width: 620px;
+   float: left;
+}
+.body-copy {
+   font-family: SourceProReg;
+   width: inherit;
+}
+.body-copy p {
+   font-size: 18px;
+}
 /* footer styles */
 
 .footer {
